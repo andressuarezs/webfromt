@@ -6,7 +6,7 @@ import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app.routing';
 import { ThemeComponent } from './theme/theme.component';
 import { AdministrationComponent } from './pages/administration/administration.component';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
+
 import { SettingsComponent } from './pages/settings/settings.component';
 
 @NgModule({
@@ -14,8 +14,7 @@ import { SettingsComponent } from './pages/settings/settings.component';
     AppComponent,
     LoginComponent,
     ThemeComponent,
-    AdministrationComponent,
-    DashboardComponent,
+    AdministrationComponent,   
     SettingsComponent
   ],
   imports: [
